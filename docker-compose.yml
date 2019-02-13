@@ -2,8 +2,7 @@ version: '3.3'
 
 services:
   ncds_next:
-    build: .
-    image: ncds_next
+    image: node:10-alpine
     container_name: ncds_next
     working_dir: /app
     volumes:
